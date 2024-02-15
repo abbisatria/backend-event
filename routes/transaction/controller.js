@@ -33,7 +33,7 @@ module.exports = {
               type_ticket: payload.type_ticket,
               price: formatNumber(payload.price * payload.quantity),
               total: formatNumber((payload.price * payload.quantity) + 3000),
-              url: `https://quarter.syntechsia/payment/${finalResult.dataValues.id}`
+              url: `https://quarter.syntechsia.com/payment/${finalResult.dataValues.id}`
             })
             return response(res, 200, true, 'Transaksi berhasil')
           } else {
@@ -55,7 +55,7 @@ module.exports = {
             type_ticket: payload.type_ticket,
             price: formatNumber(payload.price * payload.quantity),
             total: formatNumber((payload.price * payload.quantity) + 3000),
-            url: `https://quarter.syntechsia/payment/${finalResult.dataValues.id}`
+            url: `https://quarter.syntechsia.com/payment/${finalResult.dataValues.id}`
           })
           return response(res, 200, true, 'Transaksi berhasil')
         } else {
