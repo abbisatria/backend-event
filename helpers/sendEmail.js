@@ -12,8 +12,8 @@ module.exports = async (email, subject, message, data) => {
     service: 'gmail',
     host: 'smtp.gmail.com',
     auth: {
-      user: 'quartereventkrw@gmail.com',
-      pass: 'wrxqczkgarrzfhsb'
+      user: 'quartereventkrw6@gmail.com',
+      pass: 'eenfmghorlrdfgro'
     }
   })
 
